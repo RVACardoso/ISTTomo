@@ -552,6 +552,7 @@ class GenericSinglePlasma(InhomogeneousVolumeEmitter):
             spectrum.samples += 0
         return spectrum
 
+    
     # vectorization is slower!!! -> only helps for tiny integrations steps
     # def emission_function(self, points, direction, spectrum, world, ray, primitive, to_local, to_world):
     #     x = points[0] - self.center_x
